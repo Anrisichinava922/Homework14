@@ -1,0 +1,153 @@
+@media (width > 768px){
+    .container{
+        background-image:
+        url(./assets/tabletback1.svg),
+        url(./assets/tb2.svg),
+        url(./assets/tb3.svg),
+        url(./assets/tb4.svg);
+        background-repeat: no-repeat;
+        background-position: 100% 0%,80% 0%, 100% 10%, 0% 0%;
+    }
+    header{
+        padding-left: 4%;
+        padding-top: 70px;
+    }
+    .txtbox1{
+        padding-right: 200px;
+    }
+    h1{
+        width: 520px;
+        font-size: 64px;
+        line-height: 64px;
+        letter-spacing: -0.727px;
+    }
+    h2{
+        width: 514px;
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .boxes{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 250px;
+    }
+    .darkbox{
+        width: 696px;
+    }
+    .darkbox img{
+        position: relative;
+        right: 160px;
+        bottom: -20px;
+        width: 270.206px;
+        height: 556px;
+        flex-shrink: 0;
+    }
+    .orangebox{
+        position: relative;
+        z-index: 5;
+        top: -240px;
+        left: 70px;
+    }
+    .lasttxt{
+        display: flex;
+        flex-direction: row;
+        column-gap: 250px;
+        margin-top: -200px;
+    }
+    .socialmedia{
+        margin-right: -230px;
+    }
+}
+
+
+@media (width > 1439px){
+    header{
+        padding: 70px 0 0 0;
+        margin-bottom: 80px;
+    }
+    .container{
+        padding-left: 11%;
+    }
+    .txtbox1{
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        text-align: start;
+    }
+    h1{
+        width: 1015px;
+        color: #191826;
+        font-size: 88px;
+        line-height: 88px;
+        letter-spacing: -1px;
+    }
+    h2{
+        width: 825px;
+        color: #191826;
+        font-size: 20px;
+        line-height: 34px;
+    }
+    .boxes{
+        width: 1110px;
+        height: 600px;
+        flex-shrink: 0;
+    }
+    .darkbox{
+        background-position: 38.8% 0;
+        width: 1110px;
+        height: 600px;
+        flex-shrink: 0;
+        margin-top: 80px;
+    }
+    .darkbox img{
+        width: 299.029px;
+        height: 628.63px;
+        flex-shrink: 0;
+        right: 312px;
+    }
+    .orangebox{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 446px;
+        height: 625px;
+        flex-shrink: 0;
+        left: 200px;
+    }
+    .butdiv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    h3{
+        width: 333px;
+        color: #FCFAF9;
+        font-size: 40px;
+        line-height: 52px;
+    }
+    h4{
+        width: 333px;
+        color: #FCFAF9;
+        font-size: 20px;
+        line-height: 34px;
+    }
+    h5{
+        color: #FCFAF9;
+        font-size: 65px;
+        line-height: 52px;
+    }
+    span{
+        color: #FCFAF9;
+        font-size: 20px;
+        line-height: 32px;
+        letter-spacing: -0.2px;
+    }
+    .footertxt{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        column-gap: 260px;
+    }
+}
