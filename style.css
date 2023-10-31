@@ -12,6 +12,7 @@ body{
     background-image: url(./assets/blueback.svg) , url(./assets/orangeback.svg);
     background-repeat: no-repeat;
     background-position: 100% 0 , 100% 0 ;
+    overflow-x: hidden;
 }
 header{
     padding: 40px 6%;
