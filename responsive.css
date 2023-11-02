@@ -1,12 +1,17 @@
 @media (width > 768px){
     .container{
         background-image:
-        url(./assets/tabletback1.svg),
         url(./assets/tb2.svg),
         url(./assets/tb3.svg),
         url(./assets/tb4.svg);
         background-repeat: no-repeat;
-        background-position: 100% 0%,80% 0%, 100% 10%, 0% 0%;
+        background-position: 80% 0%, 100% 10%, 0% 0%;
+    }
+    .hd{
+        background-image:
+        url(./assets/tabletback1.svg);
+        background-repeat: no-repeat;
+        background-position: 100% 0%;
     }
     header{
         padding-left: 4%;

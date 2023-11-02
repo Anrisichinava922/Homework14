@@ -7,11 +7,13 @@
 body{
     font-family: 'IBM Plex Sans';
 }
-.container{
-    align-items: center;
+.hd{
     background-image: url(./assets/blueback.svg) , url(./assets/orangeback.svg);
     background-repeat: no-repeat;
     background-position: 100% 0 , 100% 0 ;
+}
+.container{
+    align-items: center;
     overflow-x: hidden;
 }
 header{
